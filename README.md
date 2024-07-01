@@ -15,6 +15,8 @@ If it is the first time running this (or it is a new PC), create the conda envir
 
 You can run the pipe on a test dataset by using:
 
+```cd mtDNA_pipe/```
+
 ```bash pipe_local.sh test-data/*.fastq.gz```
 
 To run it on your data, execute the script specifying the path to your data (paired-end raw fastq files). The script creates a sub-directory for each sample in the main working directory where you launch it.
