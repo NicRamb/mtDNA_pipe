@@ -5,7 +5,7 @@ Simple script to process raw fastq files (produced by target mtDNA sequencing) a
 
 Clone the repository on your PC:
 
-```git clone git@github.com:NicRamb/mtDNA_pipe.git```
+```git clone https://github.com/NicRamb/mtDNA_pipe.git```
 
 If it is the first time running this (or it is a new PC), create the conda environment and activate it (or just activate it if you already have the env):
 
