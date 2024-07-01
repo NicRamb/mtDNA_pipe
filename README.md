@@ -44,6 +44,14 @@ In each sample's directory you will find the following sub-directories:
 You are now ready to run mtDNA-server 2 (https://doi.org/10.1093/nar/gkae296) to analyze and classify your samples.
 
 Go to the Mitoverse page (https://mitoverse.i-med.ac.at/#!), register and/or login and run it.
+Here are the parameters we suggest for modern samples:
+
+- **Mode**:	fusion mutserve+mutect
+- **Detection Limit**:	0.1
+- **VAF Coverage Estimation**:	on
+- **Coverage Subsampling**:	2000x
+- **Minimal Base Quality**:	30
+- **Minimal Map Quality**:	30
 
 To avoid selecting each BAM from each sample folder you can do the following (your current directory should be the one where you ran the script):
 
