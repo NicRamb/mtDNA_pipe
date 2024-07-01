@@ -13,7 +13,7 @@ If it is the first time running this (or it is a new PC), create the conda envir
 
 ```conda env create -f mtDNA-pipe.yml```
 
-```conda activate mtDNA-pipe.yml```
+```conda activate mtDNA-pipe```
 
 You can run the pipe on a test dataset by using:
 
