@@ -9,13 +9,13 @@ Clone the repository on your PC:
 
 If it is the first time running this (or it is a new PC), create the conda environment and activate it (or just activate it if you already have the env):
 
+```cd mtDNA_pipe/```
+
 ```conda env create -f mtDNA-pipe.yml```
 
 ```conda activate mtDNA-pipe.yml```
 
 You can run the pipe on a test dataset by using:
-
-```cd mtDNA_pipe/```
 
 ```bash pipe_local.sh test-data/*.fastq.gz```
 
